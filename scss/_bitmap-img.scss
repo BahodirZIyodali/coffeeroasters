@@ -1,0 +1,58 @@
+.bitmap-img {
+  background-image: url(../imgs/Bitmap.png);
+  width: 1280px;
+  height: 600px;
+}
+.bitmap-img h1 {
+  height: 145px;
+  width: 493px;
+  padding-top: 115px;
+  margin-left: 85px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+}
+.bitmap-img p {
+  width: 445px;
+  height: 78px;
+  padding-top: 115px;
+  margin-left: 85px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.bitmap-img button {
+  margin-top: 120px;
+  margin-left: 85px;
+  width: 217px;
+  height: 56px;
+  background-color: #0e8784;
+  border-radius: 6px;
+}
+.bitmap-img a {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  text-decoration: none;
+}
+.bitmap-img button:hover {
+  color: #fefcf7;
+
+  background-color: #66d2cf;
+}
+.bitmap-img button:active {
+  background: #e2dedb;
+  border-radius: 6px;
+}

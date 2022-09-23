@@ -1,0 +1,88 @@
+.middle-huge-card {
+  position: relative;
+  width: 1280px;
+  height: 577px;
+  background-color: #23282f;
+  border-radius: 5px;
+}
+.middle-huge-card h2 {
+  position: absolute;
+  height: 48px;
+  left: 35.54%;
+  right: 25%;
+  top: calc(50% - 48px / 2 - 56px);
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+}
+.middle-huge-card p {
+  position: absolute;
+  width: 540px;
+  height: 80px;
+  text-align: justify;
+  left: 25%;
+  right: 50%;
+  top: 50%;
+  bottom: 0%;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+// middle card
+.middle-cards {
+  display: flex;
+  position: relative;
+}
+.middle-card {
+  position: absolute;
+  width: 350px;
+  height: 382px;
+  left: 80px;
+  top: -120px;
+  background: #0e8784;
+  border-radius: 10px;
+  
+}
+.middle-card img {
+  position: absolute;
+  left: 130px;
+  top: 72px;
+}
+.middle-card h2{
+    position: absolute;
+height: 32px;
+left: 0%;
+right: 0%;
+top: 60%;
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+color: #FEFCF7;
+}
+.middle-card p{
+    position: absolute;
+left: 10%;
+right: 0%;
+top: 70%;
+bottom: 0%;
+font-family: 'Barlow';
+Width: 255px;
+Height: 78px;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #FEFCF7;
+}
