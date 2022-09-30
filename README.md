@@ -1,3 +1,3 @@
 # coffeeroasters
-https://velvety-tiramisu-72135a.netlify.app
-korish uchun
+https://merry-croissant-45c80e.netlify.app/
+footerdagi create your plan joyiga bosilsa MODUL OYNAGA KIRADI
