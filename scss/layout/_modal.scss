@@ -1,0 +1,84 @@
+.modal-window {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.431);
+  position: fixed;
+  z-index: 111;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  width: 540px;
+  height: 600px;
+  background: #fefcf7;
+  border-radius: 8px;
+}
+.top-card {
+  height: 136px;
+  background: #333d4b;
+  border-radius: 8px 8px 0px 0px;
+}
+.top-card h2 {
+  padding: 48px 0 0 56px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.modal-content h3 {
+  padding: 50px 56px 0 56px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+
+  color: #83888f;
+}
+.modal-content p {
+  width: 428px;
+  margin: 0 auto;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  padding-bottom: 60px;
+}
+.modal-content sub {
+  padding-left: 56px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+}
+.modal-content button {
+    margin-left: 5px;
+  width: 217px;
+  height: 56px;
+  background: #0e8784;
+  border-radius: 6px;
+  border: none;
+  color: white;
+}
+.modal-content button a{
+    color: white;
+    text-decoration: none;
+}
+.modal-content button:hover{
+    background: #66D2CF;
+
+}
+.modal-content button:active{
+    background: #E2DEDB;
+}

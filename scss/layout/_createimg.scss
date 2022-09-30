@@ -1,0 +1,105 @@
+.create{
+  overflow: hidden;
+}
+.bitmap_img{
+  background-image: url(../../imgs/Bitmap\ \(6\).png);
+  width: 1280px;
+  height: 450px;
+  margin-bottom: 200px;
+}
+.bitmap_img h1{
+  
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FEFCF7;
+  padding-top: 135px;
+  padding-left: 85px;
+}
+.bitmap_img p{
+  width: 445px;
+  height: 78px;
+  margin-left: 85px;
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+color: #FEFCF7;
+mix-blend-mode: normal;
+opacity: 0.8;
+}
+
+
+
+
+// 
+.bg-color{
+  width: 1280px;
+  height: 653px;
+  background: #2C343E;
+  border-radius: 10px;;
+}
+.last-head{
+  padding-top: 100px;
+}
+.last-h3 {
+  margin-left: 100px;
+  width: 760px;
+  height: 1px;
+  border: 2px solid #fdd6ba;
+  background: #fdd6ba;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+.oval {
+ 
+  position: relative;
+  top: -15px;
+}
+.oval1 {
+  position: relative;
+  top: -15px;
+  margin-left: 320px;
+}
+.oval2 {
+  position: relative;
+  top: -15px;
+  margin-left: 330px;
+}
+
+// last cards start
+.last-cards{
+  display: flex;
+  justify-content: space-around;
+}
+.last-card {
+  width: 285px;
+  height: 355px;
+
+}
+.last-card img {
+  margin-bottom: 38px;
+}
+.last-context1 h2 {
+  width: 255px;
+  height: 73px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #FEFCF7;
+  margin-bottom: 10px;
+}
+.last-context1 p{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7
+}

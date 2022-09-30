@@ -361,6 +361,43 @@ header {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 480px) {
+  header {
+    width: 100%;
+  }
+  .nav {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+  }
+  .nav__logo {
+    margin-top: 8px;
+    margin-left: 10px;
+  }
+  .nav__ul {
+    display: none;
+    justify-content: space-between;
+    width: 30%;
+  }
+  .nav__ul-li {
+    list-style-type: none;
+  }
+  .nav__ul-li .li_link {
+    color: #83888F;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  .nav__ul-li .li_link:hover {
+    color: #333D4B;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  .nav__ul-li:hover {
+    cursor: pointer;
+  }
+}
 .bitmap-img {
   background-image: url(../imgs/Bitmap.png);
   width: 1280px;
@@ -966,4 +1003,852 @@ footer {
   font-size: 16px;
   line-height: 26px;
   color: #333D4B;
+}
+
+.create {
+  overflow: hidden;
+}
+
+.bitmap_img {
+  background-image: url(../../imgs/Bitmap\ \(6\).png);
+  width: 1280px;
+  height: 450px;
+  margin-bottom: 200px;
+}
+
+.bitmap_img h1 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+  padding-top: 135px;
+  padding-left: 85px;
+}
+
+.bitmap_img p {
+  width: 445px;
+  height: 78px;
+  margin-left: 85px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.bg-color {
+  width: 1280px;
+  height: 653px;
+  background: #2C343E;
+  border-radius: 10px;
+}
+
+.last-head {
+  padding-top: 100px;
+}
+
+.last-h3 {
+  margin-left: 100px;
+  width: 760px;
+  height: 1px;
+  border: 2px solid #fdd6ba;
+  background: #fdd6ba;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+
+.oval {
+  position: relative;
+  top: -15px;
+}
+
+.oval1 {
+  position: relative;
+  top: -15px;
+  margin-left: 320px;
+}
+
+.oval2 {
+  position: relative;
+  top: -15px;
+  margin-left: 330px;
+}
+
+.last-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.last-card {
+  width: 285px;
+  height: 355px;
+}
+
+.last-card img {
+  margin-bottom: 38px;
+}
+
+.last-context1 h2 {
+  width: 255px;
+  height: 73px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #FEFCF7;
+  margin-bottom: 10px;
+}
+
+.last-context1 p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+.middle-ul {
+  margin-top: 160px;
+  margin-left: 85px;
+  height: 356px;
+  list-style-type: none;
+}
+
+.middle-li {
+  margin-top: 40px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+}
+
+.middle-li1 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+}
+
+.middle-li:hover {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+}
+
+.middle-li1:hover {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+}
+
+.middle-li:active {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0E8784;
+}
+
+.middle-li1:active {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0E8784;
+}
+
+.middle-li::before {
+  content: "";
+  margin-top: -20px;
+  position: absolute;
+  width: 200px;
+  height: 2px;
+  background: #83888F;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
+.middle-context {
+  margin-top: -345px;
+  margin-left: 545px;
+  display: block;
+}
+
+.middle-context h2 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+}
+
+.middle-context h2::after {
+  content: "";
+  margin-left: 150px;
+  background-image: url(../../imgs/Path\ 2.svg);
+  display: inline-block;
+  width: 18px;
+  height: 11px;
+}
+
+.cmiddle-cards {
+  display: flex;
+  margin-top: 56px;
+}
+
+.cmiddle-card:hover {
+  background: #FDD6BA;
+  border-radius: 8px;
+}
+
+.cmiddle-card1:hover {
+  background: #FDD6BA;
+  border-radius: 8px;
+}
+
+.cmiddle-card {
+  position: relative;
+  width: 228px;
+  height: 250px;
+  background: #F4F1EB;
+  border-radius: 8px;
+}
+
+.cmiddle-card h3 {
+  padding-top: 32px;
+  margin-left: 28px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+}
+
+.cmiddle-card p {
+  width: 172px;
+  height: 78px;
+  padding-top: 24px;
+  margin-left: 28px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.cmiddle-card1 {
+  position: relative;
+  width: 228px;
+  height: 250px;
+  background: #0E8784;
+  border-radius: 8px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.cmiddle-card1 h3 {
+  padding-top: 32px;
+  margin-left: 28px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.cmiddle-card1 p {
+  width: 172px;
+  height: 78px;
+  padding-top: 24px;
+  margin-left: 28px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+.cm-context-2 h2 {
+  margin-top: 88px;
+  margin-left: 545px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+}
+
+.cm-context-2 h2::after {
+  content: "";
+  margin-left: 300px;
+  background-image: url(../../imgs/Path\ 2.svg);
+  display: inline-block;
+  width: 18px;
+  height: 11px;
+}
+
+.cm-cards-2 {
+  margin-top: 60px;
+  display: flex;
+  margin-left: 545px;
+}
+
+.cm-card-2:hover {
+  background: #FDD6BA;
+}
+
+.cm-card-2 {
+  position: relative;
+  width: 228px;
+  height: 250px;
+  background: #F4F1EB;
+  border-radius: 8px;
+}
+
+.cm-card-2 h3 {
+  padding-top: 32px;
+  margin-left: 28px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+}
+
+.cm-card-2 p {
+  width: 172px;
+  height: 78px;
+  padding-top: 24px;
+  margin-left: 28px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.cm-card-2-1 {
+  position: relative;
+  width: 228px;
+  height: 250px;
+  background: #0E8784;
+  border-radius: 8px;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+.cm-card-2-1:hover {
+  background: #FDD6BA;
+  border-radius: 8px;
+}
+
+.cm-card-2-1 h3 {
+  padding-top: 32px;
+  margin-left: 28px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.cm-card-2-1 p {
+  width: 172px;
+  height: 78px;
+  padding-top: 24px;
+  margin-left: 28px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+
+.cm-context-3 {
+  margin-top: 88px;
+  margin-left: 545px;
+}
+
+.cm-context-3 h2 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+}
+
+.cm-context-3 h2::after {
+  content: "";
+  margin-left: 200px;
+  background-image: url(../../imgs/Path\ 2.svg);
+  display: inline-block;
+  width: 18px;
+  height: 11px;
+}
+
+.cm-cards-3 {
+  display: flex;
+  margin-top: 56px;
+  margin-left: 545px;
+}
+
+.cm-card-3-1 {
+  position: relative;
+  width: 228px;
+  height: 250px;
+  background: #0E8784;
+  border-radius: 8px;
+}
+
+.cm-card-3 {
+  position: relative;
+  width: 228px;
+  height: 250px;
+  background: #F4F1EB;
+  border-radius: 8px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.cm-card-3 h3 {
+  padding-top: 32px;
+  margin-left: 28px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+}
+
+.cm-card-3 p {
+  width: 172px;
+  height: 78px;
+  padding-top: 24px;
+  margin-left: 28px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.cm-card-3-1 h3 {
+  padding-top: 32px;
+  margin-left: 28px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.cm-card-3-1 p {
+  width: 172px;
+  height: 78px;
+  padding-top: 24px;
+  margin-left: 28px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+.cm-card-3-1:hover {
+  background: #FDD6BA;
+  border-radius: 8px;
+}
+
+.cm-card-3:hover {
+  background: #FDD6BA;
+  border-radius: 8px;
+}
+
+.cm-context-4 {
+  margin-top: 88px;
+  margin-left: 545px;
+}
+
+.cm-context-4 h2 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+}
+
+.cm-context-4 h2::after {
+  content: "";
+  margin-left: 300px;
+  background-image: url(../../imgs/Path\ 2.svg);
+  display: inline-block;
+  width: 18px;
+  height: 11px;
+}
+
+.cm-cards-4 {
+  display: flex;
+  margin-top: 56px;
+  margin-left: 545px;
+}
+
+.cm-card-4-1 {
+  position: relative;
+  width: 228px;
+  height: 250px;
+  background: #0E8784;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+
+.cm-card-4 {
+  position: relative;
+  width: 228px;
+  height: 250px;
+  background: #F4F1EB;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+.cm-card-4 h3 {
+  padding-top: 32px;
+  margin-left: 28px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+}
+
+.cm-card-4 p {
+  width: 172px;
+  height: 78px;
+  padding-top: 24px;
+  margin-left: 28px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.cm-card-4-1 h3 {
+  padding-top: 32px;
+  margin-left: 28px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.cm-card-4-1 p {
+  width: 172px;
+  height: 78px;
+  padding-top: 24px;
+  margin-left: 28px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+.cm-card-4-1:hover {
+  background: #FDD6BA;
+  border-radius: 8px;
+}
+
+.cm-card-4:hover {
+  background: #FDD6BA;
+  border-radius: 8px;
+}
+
+.cm-context-5 {
+  margin-top: 88px;
+  margin-left: 545px;
+}
+
+.cm-context-5 h2 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+}
+
+.cm-context-5 h2::after {
+  content: "";
+  margin-left: 200px;
+  background-image: url(../../imgs/Path\ 2.svg);
+  display: inline-block;
+  width: 18px;
+  height: 11px;
+}
+
+.cm-cards-5 {
+  display: flex;
+  margin-top: 56px;
+  margin-left: 545px;
+}
+
+.cm-card-5-1 {
+  position: relative;
+  width: 228px;
+  height: 250px;
+  background: #0E8784;
+  border-radius: 8px;
+}
+
+.cm-card-5 {
+  position: relative;
+  width: 228px;
+  height: 250px;
+  background: #F4F1EB;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+
+.cm-card-5 h3 {
+  padding-top: 32px;
+  margin-left: 28px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+}
+
+.cm-card-5 p {
+  width: 172px;
+  height: 78px;
+  padding-top: 24px;
+  margin-left: 28px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.cm-card-5-1 h3 {
+  padding-top: 32px;
+  margin-left: 28px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.cm-card-5-1 p {
+  width: 172px;
+  height: 78px;
+  padding-top: 24px;
+  margin-left: 28px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+.cm-card-5-1:hover {
+  background: #FDD6BA;
+  border-radius: 8px;
+}
+
+.cm-card-5:hover {
+  background: #FDD6BA;
+  border-radius: 8px;
+}
+
+.cl-card {
+  margin-top: 85px;
+  margin-left: 545px;
+  width: 730px;
+  height: 208px;
+  background: #2C343E;
+}
+
+.cl-card h3 {
+  padding: 31px 0 0 64px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.cl-card p {
+  padding: 30px 0 0 64px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.cl-button {
+  margin-top: 60px;
+  width: 217px;
+  height: 56px;
+  background: #0E8784;
+  border-radius: 6px;
+  border: none;
+  margin-left: 1058px;
+}
+
+.cl-button:hover {
+  background: #66D2CF;
+}
+
+.cl-button:active {
+  background: #E2DEDB;
+}
+
+.cl-button a {
+  text-decoration: none;
+  color: #FEFCF7;
+}
+
+.modal-window {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.431);
+  position: fixed;
+  z-index: 111;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  width: 540px;
+  height: 600px;
+  background: #fefcf7;
+  border-radius: 8px;
+}
+
+.top-card {
+  height: 136px;
+  background: #333d4b;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.top-card h2 {
+  padding: 48px 0 0 56px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.modal-content h3 {
+  padding: 50px 56px 0 56px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: #83888f;
+}
+
+.modal-content p {
+  width: 428px;
+  margin: 0 auto;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  padding-bottom: 60px;
+}
+
+.modal-content sub {
+  padding-left: 56px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+}
+
+.modal-content button {
+  margin-left: 5px;
+  width: 217px;
+  height: 56px;
+  background: #0e8784;
+  border-radius: 6px;
+  border: none;
+  color: white;
+}
+
+.modal-content button a {
+  color: white;
+  text-decoration: none;
+}
+
+.modal-content button:hover {
+  background: #66D2CF;
+}
+
+.modal-content button:active {
+  background: #E2DEDB;
 }/*# sourceMappingURL=style.css.map */
